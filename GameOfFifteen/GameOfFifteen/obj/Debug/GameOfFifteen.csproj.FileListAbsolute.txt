@@ -1,0 +1,7 @@
+C:\Users\Admin\Desktop\GameOfFifteen\GameOfFifteen\bin\Debug\GameOfFifteen.exe.config
+C:\Users\Admin\Desktop\GameOfFifteen\GameOfFifteen\bin\Debug\GameOfFifteen.exe
+C:\Users\Admin\Desktop\GameOfFifteen\GameOfFifteen\bin\Debug\GameOfFifteen.pdb
+C:\Users\Admin\Desktop\GameOfFifteen\GameOfFifteen\obj\Debug\GameOfFifteen.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\GameOfFifteen\GameOfFifteen\obj\Debug\GameOfFifteen.exe
+C:\Users\Admin\Desktop\GameOfFifteen\GameOfFifteen\obj\Debug\GameOfFifteen.pdb
+C:\Users\Admin\Desktop\GameOfFifteen\GameOfFifteen\obj\Debug\GameOfFifteen.csprojAssemblyReference.cache

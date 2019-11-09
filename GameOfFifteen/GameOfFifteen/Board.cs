@@ -30,6 +30,28 @@ namespace GameOfFifteen
 
             _emptyCellPosition = initBoard._emptyCellPosition;
         }
+        
+        public override bool Equals(object obj)
+        {
+            foreach (var tilePosition in GetAllTilePositions())
+            {
+                if (GetTileValue(tilePosition) != ((Board)obj).GetTileValue(tilePosition))
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
+        public override int GetHashCode()
+        {
+            int hashCode = 0;
+            foreach (var tilePosition in GetAllTilePositions())
+            {
+                hashCode = (hashCode * ROWS * COLS) + GetTileValue(tilePosition);
+            }
+            return hashCode;
+        }
 
         private void InitialiseDefaultBoardMethod()
         {

@@ -79,7 +79,6 @@ namespace GameOfFifteen
 
         public static List<Board> BreadthFirstSearch(Board boardToSolve)
         {
-            // TODO: Delete all this comment.
             var toVisit = new Queue<Board>(); 
             var predecessor = new Dictionary<Board, Board>(); 
             toVisit.Enqueue(boardToSolve);
@@ -100,7 +99,8 @@ namespace GameOfFifteen
                     }
                     return solution;
                 }
-                foreach (Board board in candidate.GetAllNeighborBoards())
+                var NeighborBoards = candidate.GetAllNeighborBoards();
+                foreach (Board board in NeighborBoards)
                 {
                     if (!predecessor.ContainsKey(board))
                     {

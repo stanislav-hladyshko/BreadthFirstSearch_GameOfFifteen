@@ -30,7 +30,7 @@ namespace GameOfFifteen
 
             _emptyCellPosition = initBoard._emptyCellPosition;
         }
-        
+
         public override bool Equals(object obj)
         {
             foreach (var tilePosition in GetAllTilePositions())
@@ -109,9 +109,8 @@ namespace GameOfFifteen
         private void Move(CellPosition tilePosition)
         {
             if (!IsValidMove(tilePosition))
-            {
                 throw new Exception("Move is not valid");
-            }
+
             _cells[_emptyCellPosition.X, _emptyCellPosition.Y] = _cells[tilePosition.X, tilePosition.Y];
             _cells[tilePosition.X, tilePosition.Y] = 0;
             _emptyCellPosition = tilePosition;
@@ -122,9 +121,8 @@ namespace GameOfFifteen
             var clonedBoard = new Board(this);
 
             if (_emptyCellPosition.X == tilePosition.X && _emptyCellPosition.Y < tilePosition.Y)
-            {
                 clonedBoard._lastMove = GetTileValue(tilePosition) + ",←";
-            }
+
             if (_emptyCellPosition.X == tilePosition.X && _emptyCellPosition.Y > tilePosition.Y)
             {
                 clonedBoard._lastMove = GetTileValue(tilePosition) + ",→";

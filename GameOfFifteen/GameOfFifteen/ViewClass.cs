@@ -7,9 +7,9 @@ namespace GameOfFifteen
 {
     public static class ViewClass
     {
-        public const string _shuffledBoardPath = "c:\\Users\\Admin\\Desktop\\Start_Position.txt";
-        public const string _solvedBoardPath = "c:\\Users\\Admin\\Desktop\\Solved_moves.txt";
-        public const string _userStartPossition = "c:\\Users\\Admin\\Desktop\\UserStartPossition.txt";
+        public const string _shuffledBoardPath = "c:\\Users\\stani\\Desktop\\Start_Position.txt";
+        public const string _solvedBoardPath = "c:\\Users\\stani\\Desktop\\Solved_moves.txt";
+        public const string _userStartPossition = "c:\\Users\\stani\\Desktop\\UserStartPossition.txt";
         public static int _timeOut = 0;
 
         public static bool StringInputValidator()

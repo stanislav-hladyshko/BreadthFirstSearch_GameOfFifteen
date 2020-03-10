@@ -35,7 +35,7 @@ namespace GameOfFifteen
         {
             foreach (var tilePosition in GetAllTilePositions())
             {
-                if (GetTileValue(tilePosition) != ((Board)obj).GetTileValue(tilePosition))
+                if (obj != null && GetTileValue(tilePosition) != ((Board)obj).GetTileValue(tilePosition))
                 {
                     return false;
                 }

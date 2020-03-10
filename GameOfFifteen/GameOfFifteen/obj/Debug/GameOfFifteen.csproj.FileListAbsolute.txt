@@ -12,3 +12,10 @@ C:\Users\Admin\Documents\GitHub\BreadthFirstSearch-GameOfFifteen-\GameOfFifteen\
 C:\Users\Admin\Documents\GitHub\BreadthFirstSearch-GameOfFifteen-\GameOfFifteen\GameOfFifteen\obj\Debug\GameOfFifteen.exe
 C:\Users\Admin\Documents\GitHub\BreadthFirstSearch-GameOfFifteen-\GameOfFifteen\GameOfFifteen\obj\Debug\GameOfFifteen.pdb
 c:\Users\Admin\Documents\GitHub\BreadthFirstSearch-GameOfFifteen-\GameOfFifteen\GameOfFifteen\obj\Debug\GameOfFifteen.csprojAssemblyReference.cache
+c:\Users\stani\Documents\GitHub\BreadthFirstSearch_GameOfFifteen\GameOfFifteen\GameOfFifteen\bin\Debug\GameOfFifteen.exe.config
+c:\Users\stani\Documents\GitHub\BreadthFirstSearch_GameOfFifteen\GameOfFifteen\GameOfFifteen\bin\Debug\GameOfFifteen.exe
+c:\Users\stani\Documents\GitHub\BreadthFirstSearch_GameOfFifteen\GameOfFifteen\GameOfFifteen\bin\Debug\GameOfFifteen.pdb
+c:\Users\stani\Documents\GitHub\BreadthFirstSearch_GameOfFifteen\GameOfFifteen\GameOfFifteen\obj\Debug\GameOfFifteen.csprojAssemblyReference.cache
+c:\Users\stani\Documents\GitHub\BreadthFirstSearch_GameOfFifteen\GameOfFifteen\GameOfFifteen\obj\Debug\GameOfFifteen.exe
+c:\Users\stani\Documents\GitHub\BreadthFirstSearch_GameOfFifteen\GameOfFifteen\GameOfFifteen\obj\Debug\GameOfFifteen.pdb
+C:\Users\stani\Documents\GitHub\BreadthFirstSearch_GameOfFifteen\GameOfFifteen\GameOfFifteen\obj\Debug\GameOfFifteen.csproj.CoreCompileInputs.cache

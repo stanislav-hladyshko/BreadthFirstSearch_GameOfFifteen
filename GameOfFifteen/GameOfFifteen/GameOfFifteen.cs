@@ -99,8 +99,7 @@ namespace GameOfFifteen
                     }
                     return solution;
                 }
-                var NeighborBoards = candidate.GetAllNeighborBoards();
-                foreach (Board board in NeighborBoards)
+                foreach (Board board in candidate.GetAllNeighborBoards())
                 {
                     if (!predecessor.ContainsKey(board))
                     {
